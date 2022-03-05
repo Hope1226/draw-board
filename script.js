@@ -46,7 +46,7 @@ const drawMagic = (e) => {
   if(hue >= 360) {
     hue = 0;
   }
-  if(ctx.lineWidth >= 300 || ctx.lineWidth <=1 ){
+  if(ctx.lineWidth >= 600 || ctx.lineWidth <=1 ){
     direction = !direction;
   }
 
