@@ -57,7 +57,7 @@ const drawMagic = (e) => {
   }
 }
 
-canvas.addEventListener('mousedown', (e) => {
+canvas.addEventListener('mousemove', (e) => {
   isDrawing = true;
   [lastX, lastY] = [e.offsetX, e.offsetY];
 });
